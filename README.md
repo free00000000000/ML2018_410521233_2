@@ -28,10 +28,11 @@ Dataset 內包含：
 2. Convolutional neural network (CNN)
     - 輸入圖片有去掉空白部份
     - label 用 onehot encoding 表示
+    - Accuracy: 0.9766
 
 
 ### 5. Evaluating the Performance
 - 在測試 Logistic regression 時發現到，pca 在降維的同時會降低準確率，但在速度上能得到很大的提升，大幅的增加效率。
-- 測試 CNN 發現到，CNN 在辨識影像的部份比起像邏輯回歸這樣的線性模型有更好的效果。
+- 測試 CNN 發現到，CNN 在辨識影像的部份比起邏輯回歸這樣的線性模型有更好的效果。
 
 
